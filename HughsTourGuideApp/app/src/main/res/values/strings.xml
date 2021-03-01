@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Hughs Tour Guide App</string>
+    <string name="welcome">For the perfect walking holiday in Ireland come join us in the heart of walking in Wicklow.\n\nThe picturesque village of Tinahely is just over an hour from Dublin. Blessed with some of Ireland’s most beautiful landscapes, hills and mountains, it is no wonder that it is also one of Ireland’s favourite walking destinations and as part of Discover Ireland’s Walkers Welcome programme, Tinahely is focused on making your walking holiday a pleasure.</string>
+    <string name="tinahely_loop">Grade: Strenuous / Length: 28km / Time: 6 hours / Format: Loop / Ascent: 350m</string>
+    <string name="category_welcome">Welcome</string>
+    <string name="category_trails">Trails</string>
+    <string name="category_bars_and_Food">Bars&amp;Food</string>
+    <string name="category_accommodation">Accommodation</string>
+    <string name="category_things_to_see">Things to See</string>
+    <string name="wicklow_way">"Grade: Strenuous / Length: 129 km / Time: 6 days: Format: Linear / Ascent: 3220 m / Dogs Allowed: No "</string>
+    <string name="madelines">Madeline\'s B&amp;B</string>
+    <string name="fairwood_stables">Fairwood Stables Self Catering Accomodation</string>
+    <string name="derryview_cottage">Derryview Farm Cottage</string>
+    <string name="toberpatrick_cottages">Toberpatrick Cottages is a recently refurbished stone built courtyard that is oozing with “Old World” Charm.</string>
+    <string name="ballynultagh_forge">Selfcatering cottage available to rent weekly or fortnightly.</string>
+    <string name="murphys_hotel">The hotel is wheelchair friendly with an elevator/lift for ease of access</string>
+    <string name="kyle_farm_bandb">This is an exclusive country residence on a working dairy farm in picturesque surroundings</string>
+    <string name="todo">TODO</string>
+    <string name="ballycumber_loop">Grade: Moderate / Length: 10km / Time: 3 hours / Format: Loop / Ascent: 400m</string>
+    <string name="kyle_loop">Grade: Moderate / Length: 13.2km / Time: 5 hours / Format: Loop / Ascent: 500m</string>
+    <string name="mangans_loop">Grade: Moderate / Length: 5km / Time: 1 hour 30 minutes / Format: Loop / Ascent: 200m</string>
+    <string name="railway_walk">Grade: Easy / Length: 2.7 km / Time: 30 mins / Format: Linear / Ascent: 60m / Dogs Allowed: Yes</string>
+</resources>

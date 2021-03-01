@@ -1,0 +1,33 @@
+trails
+Tinahely Loop
+Grade: Strenuous / Length: 28km / Time: 6 hours / Format: Loop / Ascent: 350m
+Dogs Allowed
+No
+Waymarking
+Red arrow on white background
+Start Point
+Kilcommon Bridge
+Finish Point
+Kilcommon Bridge
+Nearest Town to Start
+Tinahely
+Grid Ref.
+T 042 721
+
+Ballycumber Loop
+Grade: Moderate / Length: 10km / Time: 3 hours / Format: Loop / Ascent: 400m
+
+Kyle Loop
+Grade: Moderate / Length: 13.2km / Time: 5 hours / Format: Loop / Ascent: 500m
+
+Mangan's Loop
+Grade: Moderate / Length: 5km / Time: 1 hour 30 minutes / Format: Loop / Ascent: 200m
+
+Wicklow Way
+Grade: Strenuous / Length: 129 km / Time: 6 days / Format: Linear / Ascent: 3220m
+
+Railway Walk
+Grade: Easy / Length: 2.7 km / Time: 30 mins / Format: Linear / Ascent: 60m
+
+Dogs Allowed
+Yes
