@@ -41,12 +41,11 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new TrailsFragment();
         } else if (position == 2) {
             return new AccommodationFragment();
-        } else if (position == 3) {
-            return new BarsAndFoodFragment();
         }
         else {
-            return new ThingsToSeeFragment();
+            return new BarsAndFoodFragment();
         }
+
     }
 
     /**
@@ -54,7 +53,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 5;
+        return 4;
     }
 
     @Nullable
@@ -69,11 +68,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         else if(position == 2){
             return mContext.getString(R.string.category_accommodation);
         }
-        else if(position == 3){
+        else {
             return mContext.getString(R.string.category_bars_and_Food);
         }
-        else {
-            return mContext.getString(R.string.category_things_to_see);
-        }
+
     }
 }

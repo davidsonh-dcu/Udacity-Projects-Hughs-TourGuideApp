@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -26,20 +25,20 @@ public class AccommodationFragment extends Fragment {
 
         // Create list of locations
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Madeline's B&B", R.string.madelines, R.drawable.madelines_b_b));
-        locations.add(new Location("Ballynultagh Forge", R.string.ballynultagh_forge, R.drawable.ballnultagh_forge));
-        locations.add(new Location("Derryview Cottage", R.string.derryview_cottage, R.drawable.derryview_cottage));
-        locations.add(new Location("Fairwood Stables", R.string.fairwood_stables, R.drawable.fairwood_stables));
-        locations.add(new Location("Murphy's Hotel", R.string.murphys_hotel, R.drawable.murphys));
-        locations.add(new Location("Toberpatrick Cottages", R.string.toberpatrick_cottages, R.drawable.toberpatrick_cottage));
-
+        locations.add(new Location(R.string.madelines, R.string.madelines_info, R.drawable.madelines_b_b));
+        locations.add(new Location(R.string.ballynultagh_forge, R.string.ballynultagh_forge_info, R.drawable.ballnultagh_forge));
+        locations.add(new Location(R.string.derryview_cottage, R.string.derryview_cottage_info, R.drawable.derryview_cottage));
+        locations.add(new Location(R.string.fairwood_stables, R.string.fairwood_stables_info, R.drawable.fairwood_stables));
+        locations.add(new Location(R.string.murphys_hotel, R.string.murphys_hotel_info, R.drawable.murphys));
+        locations.add(new Location(R.string.toberpatrick_cottages, R.string.toberpatrick_cottages_info, R.drawable.toberpatrick_cottage));
+        locations.add(new Location(R.string.kyle_farm_bandb, R.string.kyle_farm_bandb_info, R.drawable.kyle_farmhouse));
         // create {@link LocationAdapter}, whose data source is a list of {@link locations}
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.teal_200);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // location_description_list.xml layout file.
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link LocationAdapter} created above, so that the
         // {@link ListView} will display list items for each {@link Location} in the list.

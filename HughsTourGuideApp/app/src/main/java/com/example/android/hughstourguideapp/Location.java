@@ -7,7 +7,7 @@ package com.example.android.hughstourguideapp;
 
 public class Location {
     // location name
-    private final String mLocationName;
+    private final int mLocationName;
 
     // description of location
     private final int mLocationDescriptionResourceId;
@@ -23,13 +23,13 @@ public class Location {
      * @param locationImageResourceId location image
      */
 
-    public Location(String locationName, int locationDescriptionResourceId, int locationImageResourceId){
+    public Location(int locationName, int locationDescriptionResourceId, int locationImageResourceId){
         mLocationName = locationName;
         mLocationDescriptionResourceId = locationDescriptionResourceId;
         mLocationImageResourceId = locationImageResourceId;
     }
     // get location name
-    public String getLocationName() {return mLocationName;}
+    public int getLocationName() {return mLocationName;}
 
     // get description of location
     public int getLocationDescription() {return mLocationDescriptionResourceId;}
