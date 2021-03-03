@@ -59,14 +59,12 @@ public class TrailsFragment extends Fragment {
                 Intent tinahelyLoopInfo = new Intent (context, TinahelyLoopInfoActivity.class);
                 // set the new Westlife activity
                 startActivity(tinahelyLoopInfo);
-
             }
             /* TODO Add additional Intents for the other items on the listView */
             else{
-                Toast.makeText(getActivity(), "Info Page Under Construction", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), R.string.toast, Toast.LENGTH_SHORT).show();
             }
         });
-
 
         return listView;
     }

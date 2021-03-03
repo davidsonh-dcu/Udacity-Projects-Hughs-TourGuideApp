@@ -45,7 +45,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         else {
             return new BarsAndFoodFragment();
         }
-
     }
 
     /**
@@ -71,6 +70,5 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         else {
             return mContext.getString(R.string.category_bars_and_Food);
         }
-
     }
 }

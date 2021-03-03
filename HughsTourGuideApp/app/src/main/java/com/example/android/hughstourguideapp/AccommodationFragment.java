@@ -59,7 +59,7 @@ public class AccommodationFragment extends Fragment {
             }
             // TODO Add additional Intents for the other items on the listView
             else{
-                Toast.makeText(getActivity(), "Info Page Under Construction", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), R.string.toast, Toast.LENGTH_SHORT).show();
             }
         });
 

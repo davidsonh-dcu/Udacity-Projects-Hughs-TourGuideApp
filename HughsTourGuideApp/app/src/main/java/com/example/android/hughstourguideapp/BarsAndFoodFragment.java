@@ -25,7 +25,7 @@ public class BarsAndFoodFragment extends Fragment {
 
         // Create list of locations
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(R.string.madelines, R.string.madelines_food, R.drawable.madelines_b_b));
+        locations.add(new Location(R.string.madelines, R.string.madelines_food, R.drawable.madelines1));
         locations.add(new Location(R.string.murphys_hotel, R.string.murphys_food, R.drawable.murphys));
         locations.add(new Location(R.string.oconnors, R.string.oconnors_food, R.drawable.oconnors));
         locations.add(new Location(R.string.dlish, R.string.dlish_food, R.drawable.dlish));
@@ -56,14 +56,12 @@ public class BarsAndFoodFragment extends Fragment {
                 Intent tinahelyLoopInfo = new Intent (getActivity(), TinahelyLoopInfoActivity.class);
                 // set the new Westlife activity
                 startActivity(tinahelyLoopInfo);
-
             }
             // TODO Add additional Intents for the other items on the listView
             else{
-                Toast.makeText(getActivity(), "Info Page Under Construction", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), R.string.toast, Toast.LENGTH_SHORT).show();
             }
         });
-
 
         return listView;
     }
